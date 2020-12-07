@@ -1,6 +1,8 @@
 # mfe-module-federation
 Spike exploring Micro Frontends with Module Federation
 
+![Localhost running](https://github.com/First-Peoples-Cultural-Council/mfe-module-federation/blob/main/apps/fv/public/Federated-Modules.png)
+
 # To run
 Within each of the `apps/...` directories, install the dependencies and start the dev server.
 ie: 
