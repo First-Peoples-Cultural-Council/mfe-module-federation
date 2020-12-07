@@ -12,9 +12,9 @@ ie:
 - `cd apps/fv-sidebar`, `npm install`, `npm run start`
 
 After everything is running you can visit the combined app at:
-http://localhost:8000/
+- http://localhost:8000/
 
 Or each stand-alone app individually:
-Header: http://localhost:8001/
-Footer: http://localhost:8002/
-Sidebar: http://localhost:8003/
+- Header: http://localhost:8001/
+- Footer: http://localhost:8002/
+- Sidebar: http://localhost:8003/
