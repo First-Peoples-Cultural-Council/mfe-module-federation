@@ -16,7 +16,7 @@ function App({children}) {
         </div>
         <Aside className="AppV2__aside"/>
       </main>
-      <Footer className="AppV2__footer" />
+      <Footer className="AppV2__footer">App V2 - © 2021</Footer>
     </div>
   );
 }

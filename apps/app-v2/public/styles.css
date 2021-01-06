@@ -17,11 +17,10 @@ body {
 }
 .AppV2__header {
     background-color:cornflowerblue;
-    color: #fff;
 }
-.AppV2__footer {
+.AppV2__footer.Footer {
     background-color:cornflowerblue;
-    color: #fff;
+    justify-content: flex-end;
 }
 
 /* HEADER */

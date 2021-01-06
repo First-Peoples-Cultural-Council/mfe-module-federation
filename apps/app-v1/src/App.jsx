@@ -15,7 +15,7 @@ function App({children}) {
           <p>Perspiciatis cumque accusamus!</p>
         </div>
       </main>
-      <Footer className="AppV1__footer" />
+      <Footer className="AppV1__footer">App V1 - © 2020</Footer>
     </div>
   );
 }
