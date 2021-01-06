@@ -13,10 +13,10 @@ module.exports = {
     extensions: ['.jsx', '.js', '.json'],
   },
   devServer: {
-    port: 8001
+    port: 8000
   },
   output: {
-    publicPath: 'http://localhost:8001/',
+    publicPath: 'http://localhost:8000/',
   },
   module: {
     rules: [
@@ -31,15 +31,6 @@ module.exports = {
   },
 
   plugins: [
-    new ModuleFederationPlugin({
-      name: 'fv_header',
-      library: { type: "var", name: "fv_header" },
-      filename: 'remoteEntry.js',
-      exposes: {
-        './Header': './src/Header',
-      },
-      shared: { react: { singleton: true }, "react-dom": { singleton: true } },
-    }),
     new HtmlWebpackPlugin({
       template: './public/index.html',
     }),
