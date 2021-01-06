@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './Header';
+import Header from 'app_v2/Header';
 import Footer from './Footer';
 import Sidebar from './Sidebar';
 function App({children}) {
