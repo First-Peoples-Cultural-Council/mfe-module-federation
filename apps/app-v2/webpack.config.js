@@ -1,5 +1,4 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { ModuleFederationPlugin } = require("webpack").container;
 const mode = process.env.NODE_ENV || 'production';
 
 module.exports = {
@@ -31,15 +30,6 @@ module.exports = {
   },
 
   plugins: [
-    new ModuleFederationPlugin({
-      name: 'fv_footer',
-      library: { type: "var", name: "fv_footer" },
-      filename: 'remoteEntry.js',
-      exposes: {
-        './Footer': './src/Footer',
-      },
-      shared: { react: { singleton: true }, "react-dom": { singleton: true } },
-    }),
     new HtmlWebpackPlugin({
       template: './public/index.html',
     }),
