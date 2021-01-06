@@ -35,6 +35,10 @@ module.exports = {
       name: 'app_v1',
       library: { type: "var", name: "app_v1" },
       filename: 'remoteEntry.js',
+      exposes: {
+        './Footer': './src/Footer',
+        './Sidebar': './src/Sidebar',
+      },
       remotes: {
         'app_v2': 'app_v2',
       },

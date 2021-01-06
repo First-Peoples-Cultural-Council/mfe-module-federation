@@ -38,6 +38,9 @@ module.exports = {
       exposes: {
         './Header': './src/Header',
       },
+      remotes: {
+        'app_v1': 'app_v1',
+      },
       shared: { react: { singleton: true }, "react-dom": { singleton: true } },
     }),
     new HtmlWebpackPlugin({

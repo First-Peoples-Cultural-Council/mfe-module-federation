@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
-import Footer from './Footer';
-import Sidebar from './Sidebar';
+import Footer from 'app_v1/Footer';
+import Sidebar from 'app_v1/Sidebar';
 import Aside from './Aside';
 function App({children}) {
   return (
