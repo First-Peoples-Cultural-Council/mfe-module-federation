@@ -2,27 +2,27 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: bisque;
 }
-.AppA {
+.AppV1 {
     background-color: bisque;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
-.AppA__main {
+.AppV1__main {
     display: flex;
     flex-grow: 1;
 }
-.AppA__mainContent {
+.AppV1__mainContent {
     margin: 0 1rem;
 }
-.AppA__header {
+.AppV1__header {
     background-color:darkolivegreen;
     color: #fff;
 }
-.AppA__sidebar {
+.AppV1__sidebar {
     background-color: cadetblue;
 }
-.AppA__footer {
+.AppV1__footer {
     background-color:darkolivegreen;
     color: #fff;
 }
