@@ -1,0 +1,70 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: bisque;
+}
+.AppV1 {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.AppV1__main {
+    display: flex;
+    flex-grow: 1;
+}
+.AppV1__mainContent {
+    margin: 0 1rem;
+}
+.AppV1__header {
+    background-color:darkolivegreen;
+    color: #fff;
+}
+.AppV1__sidebar {
+    background-color: cadetblue;
+}
+.AppV1__footer {
+    background-color:darkolivegreen;
+    color: #fff;
+}
+
+/* HEADER */
+.Header {
+    display: flex;
+    padding: 1rem;
+}
+.Header__nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.Header__navLinks {
+    margin: 1rem;
+}
+
+/* FOOTER */
+.Footer {
+    display: flex;
+    justify-content: center;
+    font-size: 0.75rem;
+}
+.Footer__nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.Footer__navLinks {
+    margin: 1rem;
+}
+
+/* SIDEBAR */
+.Sidebar {
+}
+.Sidebar__nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.Sidebar__navLinks {
+    margin: 1rem;
+}
