@@ -1,4 +1,4 @@
-# mfe-module-federation
+# Module Federations
 Spike exploring Micro Frontends with Module Federation
 
 ![Localhost running](https://github.com/First-Peoples-Cultural-Council/mfe-module-federation/blob/main/Federated-Modules.png)
