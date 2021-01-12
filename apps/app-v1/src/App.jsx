@@ -1,9 +1,10 @@
 import React, {Suspense} from 'react';
-// import Header from 'app_v2/Header';
 import Footer from './Footer';
 import ErrorBoundary from './ErrorBoundary';
 import Sidebar from './Sidebar';
 
+// Proof of concept for resiliant Federated Modules
+// import Header from 'app_v2/Header';
 const loadScope = (url, scope) => {
   const element = document.createElement('script');
   const promise = new Promise((resolve, reject) => {
@@ -37,10 +38,14 @@ const Header = React.lazy(() => loadModule(
   './Header'
 ))
 const HeaderBackup = React.lazy(() => import('./fallbacks/Header'))
+// Proof of concept for resilient Federated Modules
+
 function App({children}) {
   return (
     <div className="AppV1">
+      {/* Proof of concept for resilient Federated Modules */}
       <Suspense fallback={<div>Loading...</div>}><ErrorBoundary fallback={<HeaderBackup className="AppV1__header" />}><Header className="AppV1__header" /></ErrorBoundary></Suspense>
+      {/* Proof of concept for resilient Federated Modules */}
       <main role="main" className="AppV1__main">
         <Sidebar className="AppV1__sidebar"/>
         <div className="AppV1__mainContent">
